@@ -4,16 +4,16 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/xiaomi/merlinx
+DEVICE_PATH := device/infinix/rocko
 
 # Inherit from mt6768-common
 -include device/xiaomi/mt6768-common/BoardConfigCommon.mk
 
 # Asserts
-TARGET_OTA_ASSERT_DEVICE := merlin,merlinx,merlin_eea,merlinnfc
+TARGET_OTA_ASSERT_DEVICE := rocko
 
 # Display
-TARGET_SCREEN_DENSITY := 440
+TARGET_SCREEN_DENSITY := 387
 
 # HIDL
 ODM_MANIFEST_SKUS += \
@@ -25,4 +25,4 @@ ODM_MANIFEST_MERLINNFC_FILES := $(DEVICE_PATH)/manifest_merlinnfc.xml
 TARGET_KERNEL_CONFIG := merlin_defconfig
 
 # Inherit the proprietary files
-include vendor/xiaomi/merlinx/BoardConfigVendor.mk
+include vendor/infinix/rocko/BoardConfigVendor.mk

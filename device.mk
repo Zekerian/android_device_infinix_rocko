@@ -5,7 +5,7 @@
 #
 
 # Inherit from mt6768-common
-$(call inherit-product, device/xiaomi/mt6768-common/mt6768.mk)
+$(call inherit-product, device/infinix/mt6768-common/mt6768.mk)
 
 # AAPT
 PRODUCT_AAPT_CONFIG := normal
@@ -13,10 +13,10 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
 # Boot animation
 TARGET_SCREEN_WIDTH := 1080
-TARGET_SCREEN_HEIGHT := 2340
+TARGET_SCREEN_HEIGHT := 2460
 
 # Firmware
-RECOVERY_TS_FW_PATH := vendor/xiaomi/merlinx/proprietary/vendor/firmware
+RECOVERY_TS_FW_PATH := vendor/infinix/rocko/proprietary/vendor/firmware
 
 PRODUCT_COPY_FILES += \
     $(RECOVERY_TS_FW_PATH)/novatek_ts_g6_fw.bin:recovery/root/vendor/firmware/novatek_ts_g6_fw.bin \
@@ -45,8 +45,8 @@ DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay-lineage
 
 PRODUCT_PACKAGES += \
-    FrameworksResOverlayMerlinx \
-    SystemUIOverlayMerlinx
+    FrameworksResOverlayRocko \
+    SystemUIOverlayRocko
 
 # Rootdir
 PRODUCT_PACKAGES += \
@@ -63,11 +63,11 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
 # Shipping API Level
-PRODUCT_SHIPPING_API_LEVEL := 29
+PRODUCT_SHIPPING_API_LEVEL := 30
 
 # SKU
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/build_ss_vendor.prop:$(TARGET_COPY_OUT_VENDOR)/build_ss_vendor.prop
 
 # Inherit the proprietary files
-$(call inherit-product, vendor/xiaomi/merlinx/merlinx-vendor.mk)
+$(call inherit-product, vendor/infinix/rocko/infinix-vendor.mk)

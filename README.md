@@ -1,4 +1,4 @@
-# Device tree for Redmi Note 9
+# Device tree for Infinix Note 10
 
 ```
 #
@@ -8,7 +8,7 @@
 #
 ```
 
-The Xiaomi Redmi Note 9 (codenamed _"merlinx"_) is an entry-level smartphone from Xiaomi announced in April 2020.
+The Infinix Note 10 (codenamed _"rocko"_) is an entry-level smartphone from Infinix announced in May 2021.
 
 ## Device Specifications
 
@@ -17,20 +17,19 @@ The Xiaomi Redmi Note 9 (codenamed _"merlinx"_) is an entry-level smartphone fro
 | SoC                     | MediaTek Helio G85 (12nm)                                   |
 | CPU                     | 2 x 2.0 GHz Cortex-A75 & 6 x 1.8 GHz Cortex-A55             |
 | GPU                     | Mali-G52 MC2                                                |
-| Memory                  | 3GB / 4GB / 6GB                                             |
-| Shipped Android version | 10                                                          |
+| Memory                  | 4GB / 6GB                                                   |
+| Shipped Android version | 11                                                          |
 | Storage                 | 64GB / 128GB                                                |
 | MicroSD                 | Up to 256 GB                                                |
-| Battery                 | Non-removable Li-Po 5020 mAh                                |
-| Dimensions              | 162.3 x 77.2 x 8.9 mm                                       |
-| Display                 | 2340 x 1080 (19:5:9), 6.53 inch                             |
-| Rear Camera 1           | 48 MP, f/1.8, 26mm (wide), 1/2.0", 0.8µm, PDAF              |
-| Rear Camera 2           | 8 MP, f/2.2, 118˚ (ultrawide), 1/4.0", 1.12µm               |
-| Rear Camera 3           | 2 MP, f/2.4, (macro), AF                                    |
-| Rear Camera 4           | 2 MP, f/2.4, (depth)                                        |
-| Front Camera            | 13 MP, f/2.3, 29mm (standard), 1/3.1", 1.12µm               |
+| Battery                 | Non-removable Li-Po 5000 mAh                                |
+| Dimensions              | 173.2 x 78.7 x 8.8 mm                                       |
+| Display                 | 2460 x 1080, 6.95 inch                                      |
+| Rear Camera 1           | 48 MP, PDAF                                                 |
+| Rear Camera 2           | 2 MP, f/2.4, (depth)                                        |
+| Rear Camera 3           | 2 MP, f/2.4, (monochrome)                                   |
+| Front Camera            | 16 MP                                                       |
 
 
 ## Device Picture
 
-![Xiaomi Redmi Note 9](https://i01.appmifile.com/webfile/globalimg/sg/cms/C954339F-A02F-47F0-648A-E99767C03544.jpg)
+![Infinix Note 10](https://fdn2.gsmarena.com/vv/bigpic/infinix-note-10.jpg)

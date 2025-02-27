@@ -8,8 +8,8 @@
 
 set -e
 
-export DEVICE=merlinx
+export DEVICE=rocko
 export DEVICE_COMMON=mt6768-common
-export VENDOR=xiaomi
+export VENDOR=infinix
 
 "./../../${VENDOR}/${DEVICE_COMMON}/setup-makefiles.sh" "$@"
